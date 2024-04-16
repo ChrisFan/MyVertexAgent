@@ -1,0 +1,30 @@
+{
+  "name": "0999f5b5-992d-46aa-ac69-71dd28825b5c",
+  "displayName": "WeatherFunc",
+  "description": "used when user ask for weather",
+  "toolType": "CUSTOMIZED_TOOL",
+  "functionSpec": {
+    "inputSchema": {
+      "properties": {
+        "location": {
+          "description": "The city and state e.g. San Francisco, CA",
+          "type": "string"
+        },
+        "unit": {
+          "description": "The unit of the returned temperature.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "temperature": {
+          "description": "The temperature.",
+          "type": "number"
+        }
+      },
+      "type": "object"
+    }
+  }
+}

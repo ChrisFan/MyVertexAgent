@@ -1,0 +1,11 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Generative Agent",
+  "goal": "Default goal",
+  "steps": [ {
+    "text": "Use ${TOOL: WeatherFunc} to answer weather related questions"
+  }, {
+    "text": "Use ${TOOL: Youtube} to answer youtube related questions."
+  } ],
+  "referencedTools": [ "projects/chris-fan-todo/locations/us-central1/agents/85a4d357-bf72-4169-8ac5-5f778760952f/tools/0999f5b5-992d-46aa-ac69-71dd28825b5c", "projects/chris-fan-todo/locations/us-central1/agents/85a4d357-bf72-4169-8ac5-5f778760952f/tools/3f607695-b900-4d1c-bae4-c962522af398" ]
+}
